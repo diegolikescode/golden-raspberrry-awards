@@ -1,5 +1,4 @@
-b# GOLDEN RASPBERRRY AWARDS
-# golden raspberrry awards
+# GOLDEN RASPBERRRY AWARDS
 
 ## HOW TO RUN IT
 
