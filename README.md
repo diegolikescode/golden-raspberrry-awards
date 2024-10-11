@@ -13,7 +13,7 @@
   - `npm i` installs the dependencies;
   - `npm start` runs the app;
   - `npm test` runs the tests;
-  - `npm run all` runs both the tests and the application.
+  - `npm run all` runs both the integration tests and the application afterward;
 
 
 ## TODO: Description
