@@ -1,8 +1,9 @@
-# GOLDEN RASPBERRRY AWARDS
+b# GOLDEN RASPBERRRY AWARDS
+# golden raspberrry awards
 
 ## HOW TO RUN IT
 
-> I was going to make a ``Dockerfile`` and ``docker-compose`` for this, but the docs said "no external instalation required, so that's how its gonna be.
+> I was going to make a ``Dockerfile`` and ``docker-compose`` for this, but the docs said "no external instalation required, so that's how its gonna be. </br>
 > Preferably use the NodeJS version defined inside **.nvmrc**, but it'll probably work on more recent versions of NodeJS as well.
 
 - On any Unix-based OS (all commands will install dependencies):
