@@ -2,8 +2,8 @@
 
 ## HOW TO RUN IT
 
-> I was going to make a ``Dockerfile`` and ``docker-compose`` for this, but the docs said "no external instalation required, so that's how its gonna be. </br>
-> Preferably use the NodeJS version defined inside **.nvmrc**, but it'll probably work on more recent versions of NodeJS as well.
+> This could use a ``Dockerfile`` and ``docker-compose``, but the docs said *"no external instalation required"*. </br>
+> Preferably use the NodeJS version defined inside `.nvmrc`, but it'll probably work on more recent versions of NodeJS as well.
 
 - On any Unix-based OS (all commands will install dependencies):
   - `make` runs the app;
@@ -67,9 +67,3 @@
 - Only integration tests should be implemented. These tests should ensure that the data obtained matches the data provided in the proposal.
 - The database should be in-memory, using an embedded DBMS (such as H2). No external installation should be required.
 - The application should include a README with instructions on how to run the project and the integration tests.
-
-
-
-
-
-
