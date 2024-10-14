@@ -15,6 +15,11 @@
   - `npm test` runs the tests;
   - `npm run all` runs both the integration tests and the application afterward;
 
+The API has a single `GET` end-point: `http://localhost:3000/api/movies/find-interval`, after running one of the *run* commands from above you should be able to `GET` at the URL. an example of `GET` would be:
+````bash
+curl --request GET \
+  --url http://localhost:3000/api/movies/find-interval
+````
 
 ## TODO: Description
 

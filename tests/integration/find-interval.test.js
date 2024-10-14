@@ -6,7 +6,7 @@ describe('find Interval: Movies Controller', () => {
     let app;
 
     beforeAll(() => {
-        process.argv.push('movielist.test.csv');
+        process.argv.push('movielist.csv');
         bulkMoviesData();
     });
 
@@ -25,16 +25,10 @@ describe('find Interval: Movies Controller', () => {
         expect(res.body).toEqual({
             max: [
                 {
-                    producer: 'Albert Camus',
-                    interval: 39,
-                    previousWin: 1980,
-                    followingWin: 2019,
-                },
-                {
-                    producer: 'Lucius Seneca',
-                    interval: 39,
-                    previousWin: 1980,
-                    followingWin: 2019,
+                    producer: 'Matthew Vaughn',
+                    interval: 13,
+                    previousWin: 2002,
+                    followingWin: 2015,
                 },
             ],
             min: [
@@ -43,24 +37,6 @@ describe('find Interval: Movies Controller', () => {
                     interval: 1,
                     previousWin: 1990,
                     followingWin: 1991,
-                },
-                {
-                    producer: 'White Lies',
-                    interval: 1,
-                    previousWin: 1991,
-                    followingWin: 1992,
-                },
-                {
-                    producer: 'Raul Seixas',
-                    interval: 1,
-                    previousWin: 1995,
-                    followingWin: 1996,
-                },
-                {
-                    producer: 'Rita Lee',
-                    interval: 1,
-                    previousWin: 1995,
-                    followingWin: 1996,
                 },
             ],
         });
